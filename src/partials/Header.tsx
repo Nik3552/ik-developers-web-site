@@ -2,7 +2,7 @@ export function Header() {
     return (
         <header>
             <div className="logo-container">
-                <img src="/header-logo.png" alt="Company's logo" />
+                <img src="header-logo.png" alt="Company's logo" />
                 <p>Ik developers</p>
             </div>
             <ul className="links">
