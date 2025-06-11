@@ -1,5 +1,6 @@
 {
   "name": "software-company-website",
+  "homepage": "https://nik3552.github.io/ik-developers-web-site/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.4.0",
     "@types/react-slick": "^0.23.13",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.512.0",
     "modern-normalize-css": "^1.0.3",
     "react": "^19.1.0",
